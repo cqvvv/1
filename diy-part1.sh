@@ -15,3 +15,16 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/tianiue/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/tianiue/small.git package/small
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/schen39/luci-app-serverchan.git package/luci-app-serverchan
+git clone https://github.com/tianiue/luci-app-pptp-vpnserver.git package/luci-app-pptp-vpnserver
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/tianiue/luci-app-oscam.git package/luci-app-oscam
+git clone https://github.com/tianiue/openwrt_oscam.git package/openwrt_oscam
+git clone https://github.com/tianiue/luci-theme-argon-leanimg.git package/luci-theme-argon-leanimg
